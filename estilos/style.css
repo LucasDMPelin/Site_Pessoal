@@ -28,12 +28,22 @@ main {
 }
 
 section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
     background-color: white;
     width: 250px;
     height: 500px;
+    border-radius: 20px;
 }
 
-
+section#login >div#magem {
+   background: #5f2c82 url(../imagens/pexels-stas-knop-1579240.jpg) no-repeat; 
+   background-size: cover;
+   height: 200px;
+}
 
 
 
